@@ -24,22 +24,6 @@ ignored_re = [
 ]
 
 root = doc.getroot()
-#print(root, root.tag, root.keys(), root.items())
-#for norm in root.getchildren():
-#    #print(norm, norm.tag, norm.keys(), norm.items())
-#    for data in norm.getchildren():
-#        print(data.tag)
-#        if data.tag == 'metadaten':
-#            try:
-#                print(data.titel)
-#            except AttributeError:
-#                pass
-#        if data.tag == 'textdaten':
-#            print(data.text)
-#    #break
-
-#def get_child(element, child_tag):
-#    if element.g
 
 def get_text(element):
     text = element.text or ''
